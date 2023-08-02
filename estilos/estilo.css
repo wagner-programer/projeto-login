@@ -5,6 +5,7 @@ paleta de cores do login
 verde claro #03A688
 azul petroleo #026873
 tom mais escuro #011F26
+MOBILE FISRT
 */
 
 *{
@@ -31,6 +32,8 @@ section#login{
     height: 450px;
     background-color: white;
     border-radius: 20px;
+
+    transition: width .1s, height .1s ;
 }
 div#img{
     background-image: url(../imagens/ex.jpg);

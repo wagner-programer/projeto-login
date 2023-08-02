@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+paleta de cores do login
+verde claro #03A688
+azul petroleo #026873
+tom mais escuro #011F26
+ESTILO PARA TELAS DE TABLETS E PC 
+*/
+@media screen and (min-width: 768px ) and (max-width: 992px ) {
+    body{
+        background-image:linear-gradient(to right, #011F26,#026873,#03A688)
+    }
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 992px) {
+    body{
+        background-image:linear-gradient(to right, #011F26,#026873,#03A688)
+    }
+    section#login{
+        width: 900px;
+    }
+    section#login > div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
