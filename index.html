@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-                foto
+            <div id="img">
+                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Faça o login para acessar sua conta</p>
                 <form action="login.php" method="post">
-                    
+                    <img src="imagens/fechadura.png" alt="login" id="logini"> <input type="text" name="Login" id="login" required placeholder="Digite seu login" minlength="5" maxlength="15" size="12"></p><br>
+                    <img src="imagens/desbloquear.png" alt="senha" id="senhai"><input type="password" name="senha" id="senha" required placeholder="Senha" minlength="6" maxlength="8" size="12"></p>
+                    <p><input type="button" value="Entrar"></p>
                 </form>
             </div>
         </section>

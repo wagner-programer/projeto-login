@@ -32,7 +32,29 @@ section#login{
     background-color: white;
     border-radius: 20px;
 }
- main div#imagem{
-    background-image: #026873 url(../imagens/home.jpg) no repeat;
+div#img{
+    background-image: url(../imagens/ex.jpg);
+    background-position: left center;
     background-size: cover;
+    height: 200px;
+}
+div#formulario{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+main h1{
+    padding-bottom: 10px;
+}
+main p{
+    padding-bottom: 5px;
+}
+img#logini{
+    height: 20px;
+    width: 20px;
+}
+img#senhai{
+    height: 20px;
+    width: 20px;
 }
