@@ -32,6 +32,7 @@ section#login{
     height: 450px;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
     transition: width .1s, height .1s ;
 }
@@ -56,8 +57,39 @@ main p{
 img#logini{
     height: 20px;
     width: 20px;
+    display: inline-block;
+    position:relative;
+    margin-right: 7px;
+
 }
 img#senhai{
     height: 20px;
     width: 20px;
+    display: inline-block;
+    position: relative;
+    margin-right: 7px;
+}
+input.loginc{
+    margin: auto;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    background-color: #03a6884d;
+    padding: 5px;
+    border-radius: 30px;
+}
+input.senhac{
+    margin: auto;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    background-color: #03a6884d;
+    padding: 5px;
+    border-radius: 30px;
+}
+  input.btn-entrar{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 7px;
+    cursor: pointer;
 }
