@@ -78,6 +78,9 @@ input.loginc{
     padding: 5px;
     border-radius: 30px;
 }
+input.loginc:focus-within{
+    background-color: white;
+}
 input.senhac{
     margin: auto;
     display: inline-block;
@@ -86,6 +89,9 @@ input.senhac{
     background-color: #03a6884d;
     padding: 5px;
     border-radius: 30px;
+}
+input.senhac:focus-within{
+    background-color: white;
 }
   input.btn-entrar{
     border-radius: 20px;
